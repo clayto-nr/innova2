@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) {
+
+  .container-1 {
+    display: none;
+  }
+
+  header {
+    padding: 18px 24px;
+  }
+
+  .container-none {
+    display: block;
+  }
+
+  .container-3 {
+    flex-direction: column;
+  }
+
+  .card {
+    min-width: 0px;
+  }
+
+  .org-5 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-small {
+    width: auto;
+  }
+
+  .card-vertical {
+    min-width: 90%;
+    max-width: 90%;
+  }
+
+  .fav {
+    width: auto;
+
+    .card-small {
+      width: auto;
+    }
+  }
+
+  .etiqueta-2 {
+    width: auto;
+  }
+  nav{
+    flex-direction: column;
+    width: 100%;
+    a{
+      width: 100%;
+    }
+    button{
+      width: 85%;
+      justify-content: center;
+      margin: 0px 30px;
+    }
+  }
+}
